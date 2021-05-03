@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTacToe</title>
+  </head>
+  <body>
+    <h2>Tic Tac Toe</h2>
+    <div class="board">
+      <div class="square topLeft" data-cell-index="0" data-player=""></div>
+      <div class="square top" data-cell-index="1" data-player=""></div>
+      <div class="square topRight" data-cell-index="2" data-player=""></div>
+      <div class="square left" data-cell-index="3" data-player=""></div>
+      <div class="square center" data-cell-index="4" data-player=""></div>
+      <div class="square right" data-cell-index="5" data-player=""></div>
+      <div class="square bottomLeft" data-cell-index="6" data-player=""></div>
+      <div class="square bottom" data-cell-index="7" data-player=""></div>
+      <div class="square bottomRight" data-cell-index="8" data-player=""></div>
+    </div>
+    <h3>Player X's Turn</h3>
+    <div class="buttonsSection">
+      <button id="reset">New Game</button>
+      <button id="switchSide">Switch Side</button>
+    </div>
+
+    <script src="tictac.js"></script>
+  </body>
+</html>
